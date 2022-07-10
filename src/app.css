@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #c4c4c4;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 { 
+    color: #3F4E4F; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 60px; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center; 
+    margin-top: 72px;
+}
+
+h2 { 
+    color: #111; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 20px; 
+    font-weight: 300; 
+    line-height: 32px; 
+    margin: 30px 0 72px; 
+    text-align: center; 
+}
+
+.img-container {
+    background-color: #fff;
+    position: relative;
+    display: block;
+    margin: 2rem 22rem;
+    height: 600px;
+    width:800px;
+}
+
+.person-img {
+    position: relative;
+    top: 50px;
+    left: 300px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
+
+.quote-icon {
+    position: absolute;
+    top: 2rem;
+    left: 20rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    transform: translateY(25%);
+    background: #3F4E4F;
+    color: #fff;
+}
+
+
+.underline {
+    height: 0.25rem;
+    width: 5rem;
+    background: #3F4E4F;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.name {
+    color: #3F4E4F; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 20px; 
+    font-weight: 300; 
+    line-height: 32px;
+    margin-top: 2rem; 
+    text-align: center;
+}
+
+.job {
+    color: #3F4E4F; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 20px; 
+    font-weight: 300; 
+    line-height: 32px; 
+    text-align: center;
+}
+
+.age {
+    color: #3F4E4F; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 20px; 
+    font-weight: 300; 
+    line-height: 32px; 
+    text-align: center;
+}
+
+.text {
+    background: #3F4E4F;
+    opacity: 0.5;
+    position: relative;
+    left: 12rem;
+    color: #fff; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 20px; 
+    font-weight: 300; 
+    line-height: 32px; 
+    text-align: center;
+    max-width: 400px;
+    padding: 1rem;
+}
+
+.prev-btn,
+.next-btn {
+  color: #3F4E4F;
+  font-size: 1.25rem;
+  background: transparent;
+  border-color: transparent;
+  margin-top: 1rem;
+
+  transition: #fff;
+  cursor: pointer;
+}
+.prev-btn:hover,
+.next-btn:hover {
+  color: #3F4E4F;
+}
+
+.prev-btn {
+    margin-left: 22rem;
+}
+
+
+.random-btn {
+    margin-top: 0.5rem;
+    margin-left: 21rem;
+    background: #3F4E4F;
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    text-transform: capitalize;
+    border-radius: 0.25rem;
+    transition: all 0.3s linear;
+    border-color: transparent;
+    cursor: pointer;
+  }
+  .random-btn:hover {
+    background: #c4c4c4;
+    color: #fff;
+  }
